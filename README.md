@@ -1,7 +1,7 @@
 # ga-gtm-workshop
 
 ## Installasjon:
-Last ned koden fra dette repoet.
+Last ned koden i dette repoet, enten med git clone eller som zip-arkiv.
 
 
 For å få websiden til å fungere trenger vi localhost kjørende. Det kan gjøres på to måter:
