@@ -1,0 +1,12 @@
+<form>
+	<h1>Hva er du interessert i å høre på?</h1>
+	<select class="form-control input-small bottom-spacing-medium" data-ng-model="person.interesse">
+		<option value="ux">UX</option>
+		<option value="konseptutvikling">Konseptutvikling</option>
+		<option value="grafisk design">Grafisk design</option>
+		<option value="frontendprogrammering">Frontendprogrammering</option>
+	</select>
+
+	<button class="btn btn-default" onclick="window.history.back()">Tilbake</button>
+	<button type="submit" class="btn btn-primary" data-ng-click="send()">Gå videre</button>
+</form>

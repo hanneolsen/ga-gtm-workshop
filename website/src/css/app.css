@@ -1,0 +1,53 @@
+.vertical-spacing-small {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.vertical-spacing-medium {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.vertical-spacing-large {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.top-spacing-small {
+	margin-top: 1rem;
+}
+
+.top-spacing-medium {
+	margin-top: 2rem;
+}
+
+.top-spacing-large {
+	margin-top: 3rem;
+}
+
+.bottom-spacing-small {
+	margin-bottom: 1rem;
+}
+
+.bottom-spacing-medium {
+	margin-bottom: 2rem;
+}
+
+.bottom-spacing-large {
+	margin-bottom: 3rem;
+}
+
+
+.form-centered {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.input-small {
+	max-width: 300px;
+}
+
+form h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}

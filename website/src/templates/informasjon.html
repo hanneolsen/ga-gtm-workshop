@@ -1,0 +1,12 @@
+<form>
+	<div class="form-group">
+		<label for="navn">Navn</label>
+		<input type="text" class="form-control input-small" id="navn" data-ng-model="person.navn" placeholder="Navn">
+	</div>
+	<div class="form-group form-group-narrow">
+		<label for="epost">Epost</label>
+		<input type="email" class="form-control input-small" id="epost" data-ng-model="person.epost" placeholder="Epost">
+	</div>
+
+	<button type="submit" class="btn btn-primary" data-ng-click="neste()">Gå videre</button>
+</form>
