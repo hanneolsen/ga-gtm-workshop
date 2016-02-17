@@ -4,7 +4,7 @@
 Last ned koden i dette repoet, enten med git clone eller som zip-arkiv.
 
 
-For å få websiden til å fungere trenger vi localhost kjørende. Det kan gjøres på to måter:
+For å få websiden til å fungere trenger vi en lokal server (localhost) kjørende. Det kan gjøres på to måter:
 
 **1: Shell-script (krever Mac OS X)**
 
