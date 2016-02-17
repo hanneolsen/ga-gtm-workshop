@@ -24,20 +24,23 @@ Websiden skal nå være tilgjengelig på http://localhost:8000/.
 
 ## Oppgavene
 
-Temaene for oppgavene i dag går på basisfunksjonalitet i Google Analytics. Det er ikke et mål i seg selv å bli eksperter på GUIet til Analytics eller Tag manager, jeg tenker at det i seg selv er en helt egen, separat workshop. Målet er å sette opp tracking, for så å filosofere rundt hvordan dette kan hjelpe deg å forstå brukerne dine bedre.
+Temaene for oppgavene i dag går på basisfunksjonalitet i Google Analytics. Det er ikke et mål i seg selv å bli eksperter på GUIet til Analytics eller Tag Manager, jeg tenker at det i seg selv er en helt egen, separat workshop. Målet er å sette opp tracking, for så å filosofere rundt hvordan dette kan hjelpe deg å forstå brukerne dine bedre.
 
 
 ### Oppgave #1: Setup
 1. Lag deg en konto hos Google Analytics (https://support.google.com/analytics/answer/1008015?hl=en). 
 2. Sett opp en property (https://support.google.com/analytics/answer/1042508). Du trenger ikke gjøre noe med HTML-snutten du får generert. 
-3. Lag deg en konto hos Google tag manager, lag deretter en container. (https://support.google.com/tagmanager/answer/6103696?hl=en&ref_topic=3441530). 
+3. Lag deg en konto hos Google Tag Manager, lag deretter en container. (https://support.google.com/tagmanager/answer/6103696?hl=en&ref_topic=3441530). 
 4. Legg HTML-koden du får generert helt i starten av <body>-taggen i index.html og register.html i website-mappen. 
 5. Lag en tag som tracker page hits på alle sider. Publiser denne.
-6. Besøk Google Analytics. Under fanen Reporting > Real time skal du få opp 1 besøkende.
+6. Besøk Google Analytics. Under fanen Reporting > Real time -> Overview skal du få opp 1 besøkende.
 
 
 **Tips:**
 Det kan være lurt å legge tracking IDen til Analytics i en konstant i Tag manager. Da slipper man å slå opp IDen hver eneste gang man lager en ny tag. (http://www.bloggerchica.com/using-a-gtm-constant-string-variable-for-ga-property-id/)
+
+**Tips** 
+Man kan velge Preview mode når man publiserer tags i Google Tag Manager. Dette er nyttig for å se hvilke tags som faktisk trigges.
 
 
 
@@ -49,16 +52,20 @@ Page loads trackes automatisk, som vi så i den første oppgaven. Men hva annet 
 **Tips:**
 Det er lurt å prefikse IDer og klassenavn som skal brukes som selectorer i Tag manager med gtm-. På den måten er det tydelig hva IDens/klassens hensikt er i etterkant. 
 
-Bonusoppgave: Kan man trigge pageviews i Javascript? F.eks. på route changes i Angular?
+**Bonusoppgave:**
+Kan man trigge pageviews i Javascript? F.eks. på route changes i Angular?
 
 
 ### Oppgave #3: Goals 
 https://support.google.com/analytics/answer/1032415?hl=en
 
-Man kan sette opp goals i Google Analytics for å markere ønsket oppførsel fra brukerne i datasettet. Hva er brukerinteraksjoner på websiden vår som vi ønsker å fremheve på den måten?
+Hva er hovedformålet til nettsiden? Man kan sette opp goals i Google Analytics for å markere ønsket oppførsel fra brukerne i datasettet. Hvilke brukerinteraksjoner på websiden vår ønsker vi å fremheve på den måten? Sett opp et goal som trigges på formålet dere kommer frem til.
 
 **Tips:**
 Goals kan bare innfris en gang per brukersesjon. For å tvinge gjennom en ny sesjon kan man åpne et inkognito-vindu.
+
+**Tips** 
+Goals kan aldri slettes, men de kan deaktiveres. Man har en limit på 20 goals per view.
 
 
 
