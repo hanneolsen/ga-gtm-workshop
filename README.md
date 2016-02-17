@@ -49,12 +49,13 @@ Page loads trackes automatisk, som vi så i den første oppgaven. Men hva annet 
 **Tips:**
 Det er lurt å prefikse IDer og klassenavn som skal brukes som selectorer i Tag manager med gtm-. På den måten er det tydelig hva IDens/klassens hensikt er i etterkant. 
 
+Bonusoppgave: Kan man trigge pageviews i Javascript? F.eks. på route changes i Angular?
 
 
 ### Oppgave #3: Goals 
 https://support.google.com/analytics/answer/1032415?hl=en
 
-Man kan sette opp goals i Google Analytics for å markere ønsket oppførsel fra brukerne i datasettet. Hva er brukerinteraksjoner på websiden vår som vi ønsker å fremheve på den måten? Hvordan kan vi bruke goals til å 
+Man kan sette opp goals i Google Analytics for å markere ønsket oppførsel fra brukerne i datasettet. Hva er brukerinteraksjoner på websiden vår som vi ønsker å fremheve på den måten?
 
 **Tips:**
 Goals kan bare innfris en gang per brukersesjon. For å tvinge gjennom en ny sesjon kan man åpne et inkognito-vindu.
